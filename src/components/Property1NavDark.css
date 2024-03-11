@@ -1,0 +1,41 @@
+.about {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+}
+.get-for-free {
+  position: relative;
+  letter-spacing: -0.05em;
+  font-weight: 500;
+}
+.buttons,
+.property-1navdark,
+.stack1 {
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  padding: var(--padding-3xs) var(--padding-mini);
+  color: var(--color-black);
+}
+.property-1navdark,
+.stack1 {
+  gap: 0 24px;
+}
+.property-1navdark {
+  width: 1200px;
+  background-color: var(--color-gray-600);
+  backdrop-filter: blur(14px);
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  gap: 0 463px;
+  text-align: left;
+  font-size: var(--body-bold-size);
+  color: var(--color-gray-500);
+  font-family: var(--body-bold);
+}

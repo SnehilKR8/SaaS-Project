@@ -1,0 +1,89 @@
+.desktop-child {
+  position: absolute;
+  top: 1775px;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    #000,
+    rgba(93, 44, 168, 0.85) 57.83%,
+    #000
+  );
+  width: 1200px;
+  height: 1754px;
+  margin-left: 7px;
+}
+.body,
+.h2 {
+  position: relative;
+  display: inline-block;
+}
+.h2 {
+  width: 540px;
+  letter-spacing: -0.06em;
+  line-height: 60px;
+  height: 62px;
+  flex-shrink: 0;
+}
+.body {
+  width: 535px;
+  font-size: var(--body-large-size);
+  letter-spacing: -0.04em;
+  line-height: 31px;
+  font-family: var(--body-bold);
+}
+.h2-parent {
+  gap: 20px 0;
+}
+.frame-wrapper,
+.h2-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.app-night-icon {
+  width: 1092px;
+  position: relative;
+  height: 678px;
+  object-fit: cover;
+}
+.frame-parent {
+  position: absolute;
+  top: 93px;
+  left: 46px;
+  width: 1092px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px 0;
+}
+.product {
+  width: 1200px;
+  position: relative;
+  height: 1074px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.stack {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 600px);
+  width: 1200px;
+  height: 4081px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.desktop {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  height: 4096px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--h2-size);
+  color: var(--color-white);
+  font-family: var(--body-small-tag);
+}

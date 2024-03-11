@@ -1,0 +1,66 @@
+.body6,
+.h23 {
+  width: 540px;
+  position: relative;
+  letter-spacing: -0.06em;
+  line-height: 60px;
+  display: inline-block;
+}
+.body6 {
+  width: 447px;
+  font-size: var(--body-bold-size);
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  font-family: var(--body-bold);
+  color: var(--color-silver);
+}
+.h2-container {
+  align-items: center;
+  gap: 20px 0;
+}
+.frame-div,
+.h2-container,
+.sign-up-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-div {
+  align-items: center;
+  gap: 40px 0;
+}
+.sign-up-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  align-items: flex-start;
+  padding: var(--padding-113xl) var(--padding-311xl);
+}
+.emojistar-1-icon,
+.helix2-1-icon {
+  position: absolute;
+  top: 10px;
+  left: 49px;
+  width: 263px;
+  height: 263px;
+  object-fit: cover;
+}
+.helix2-1-icon {
+  top: 160.2px;
+  left: 885.2px;
+  width: 268.5px;
+  height: 268.5px;
+  object-fit: contain;
+}
+.sign-up {
+  width: 1200px;
+  position: relative;
+  height: 487px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--h2-size);
+  color: var(--color-white);
+  font-family: var(--body-small-tag);
+}

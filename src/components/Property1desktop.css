@@ -1,0 +1,38 @@
+.nameemailcom {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.form {
+  width: 286px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-800);
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-xs);
+  box-sizing: border-box;
+}
+.buttons1,
+.form,
+.property-1desktop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.buttons1 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-mini);
+  color: var(--color-black);
+}
+.property-1desktop {
+  justify-content: flex-start;
+  gap: 0 10px;
+  text-align: left;
+  font-size: var(--body-bold-size);
+  color: var(--color-gray-700);
+  font-family: var(--body-bold);
+}

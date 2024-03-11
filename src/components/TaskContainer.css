@@ -1,0 +1,95 @@
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 556px;
+  background: linear-gradient(
+    180deg,
+    #000,
+    #200d42 34.22%,
+    #4f21a1 64.9%,
+    #a46edb 81.78%
+  );
+  width: 1200px;
+  height: 730px;
+}
+.group-item {
+  position: absolute;
+  top: 555px;
+  left: calc(50% - 1172px);
+  border-radius: 50%;
+  background: radial-gradient(50% 50%at 50% 50%, #000 82.2%, #9560eb);
+  border: 1px solid var(--color-plum);
+  box-sizing: border-box;
+  width: 2344px;
+  height: 1014px;
+}
+.one-task {
+  margin: 0;
+}
+.body2,
+.h1 {
+  position: relative;
+  letter-spacing: -0.07em;
+  line-height: 125px;
+}
+.body2 {
+  width: 457px;
+  font-size: var(--body-large-size);
+  letter-spacing: -0.04em;
+  line-height: 31px;
+  font-family: var(--body-bold);
+  display: inline-block;
+}
+.hero-content {
+  position: absolute;
+  top: 63.5px;
+  left: calc(50% - 337px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px 0;
+}
+.cursor-1-icon,
+.cursor-2-icon,
+.message-1-icon,
+.message-2-icon {
+  position: absolute;
+  top: 250px;
+  left: 693px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.cursor-2-icon,
+.message-1-icon,
+.message-2-icon {
+  top: 253px;
+  left: 692px;
+}
+.message-1-icon,
+.message-2-icon {
+  top: 179px;
+  left: 1439px;
+}
+.message-1-icon {
+  top: 173px;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 1px;
+  left: -556px;
+  width: 2344px;
+  height: 1569px;
+}
+.hero {
+  width: 1200px;
+  position: relative;
+  height: 731px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-146xl);
+  color: var(--color-white);
+  font-family: var(--body-small-tag);
+}

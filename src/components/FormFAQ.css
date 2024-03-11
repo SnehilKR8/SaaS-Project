@@ -1,0 +1,32 @@
+.how-does-the {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.03em;
+}
+.vector-icon {
+  width: 18.8px;
+  position: relative;
+  height: 18.8px;
+}
+.formfaq,
+.frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frame {
+  overflow: hidden;
+  justify-content: flex-end;
+  padding: var(--padding-10xs);
+}
+.formfaq {
+  width: 449px;
+  border-bottom: 1px solid var(--color-gray-800);
+  box-sizing: border-box;
+  justify-content: center;
+  padding: var(--padding-11xl) 0;
+  text-align: left;
+  font-size: var(--h5-size);
+  color: var(--color-white);
+  font-family: var(--body-small-tag);
+}

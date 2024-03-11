@@ -1,0 +1,106 @@
+.body4,
+.h21 {
+  position: relative;
+  display: inline-block;
+}
+.h21 {
+  width: 540px;
+  letter-spacing: -0.06em;
+  line-height: 60px;
+  height: 62px;
+  flex-shrink: 0;
+}
+.body4 {
+  width: 535px;
+  font-size: var(--body-large-size);
+  letter-spacing: -0.04em;
+  line-height: 31px;
+  font-family: var(--body-bold);
+}
+.h2-group {
+  gap: 20px 0;
+}
+.frame-container,
+.h2-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.icons4 {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icons-frame {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-lg);
+}
+.body5,
+.integration-ecosystem2 {
+  position: relative;
+  letter-spacing: -0.03em;
+}
+.body5 {
+  width: 319px;
+  font-size: var(--body-bold-size);
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  font-family: var(--body-bold);
+  display: inline-block;
+}
+.feature-cards1,
+.integration-ecosystem-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px 0;
+}
+.feature-cards1 {
+  width: 360px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-400);
+  border: 1px solid var(--color-gray-800);
+  box-sizing: border-box;
+  padding: var(--padding-21xl);
+  gap: 24px 0;
+}
+.feature-cards-parent,
+.frame-group {
+  display: flex;
+  justify-content: flex-start;
+}
+.feature-cards-parent {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0 16px;
+  font-size: var(--h5-size);
+}
+.frame-group {
+  position: absolute;
+  top: 121px;
+  left: 44px;
+  flex-direction: column;
+  align-items: center;
+  gap: 66px 0;
+}
+.grid {
+  width: 1200px;
+  position: relative;
+  height: 742px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--h2-size);
+  color: var(--color-white);
+  font-family: var(--body-small-tag);
+}
